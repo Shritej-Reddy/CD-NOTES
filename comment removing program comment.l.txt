@@ -1,0 +1,14 @@
+Lexer & compile
+flex comment.l
+gcc lex.yy.c     /*  flag -efl not needed
+
+a.exe     and  write the below lines of code with comment. out.c has the c code with comments removed.
+
+//testing
+#include <stdio.h>
+int main() {
+/* comments */
+/* some other */
+a=5;
+printf("%d", a);
+}
